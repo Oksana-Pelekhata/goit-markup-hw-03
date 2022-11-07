@@ -65,10 +65,10 @@ a {
     display: flex;
 } */
 .header {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
+    /* width: 1600px; */
+    /* height: 80px; */
+    /* left: 0px;
+    top: 0px; */
     border: 1px solid var(--border-line);
 }
 .logo {
