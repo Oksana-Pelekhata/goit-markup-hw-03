@@ -237,7 +237,7 @@ color: var(--color-wight);
 .advantages-list .item {
     width: calc((100%-90px)/4);
 }
-
+  
 .advantages-list .item:not(:last-child) {
     margin-right: 30px;
 }
