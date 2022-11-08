@@ -158,10 +158,7 @@ margin-right: 50px;
     padding-bottom: 200px;
     padding-top: 200px;
 }
-.nopadding {
-padding-bottom: 0;
-padding-top: 0;
-}
+
 .hero-title {
 
 margin-bottom: 30px;
@@ -237,6 +234,10 @@ color: var(--color-wight);
     display: flex;
 }
 
+.advantages-list .item {
+    width: calc((100%-90px)/4);
+}
+
 .advantages-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -292,6 +293,7 @@ margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         background-color: var(--color-wight);
+        width: calc((100%-90px)/4);
 }
 .team-header {
     
@@ -398,9 +400,8 @@ cursor: pointer;
 
 
 .portfolio-subtitle {
-margin-top: 20px;
+
 margin-bottom: 4px;
-margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -409,9 +410,7 @@ margin-left: 24px;
     
 }
 .portfolio-text {
-    margin-bottom: 20px;
-    margin-left: 24px;
-
+ 
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
@@ -422,27 +421,29 @@ margin-left: 24px;
 .portfolio-btn {
     display: flex;
    justify-content: center;
+    margin-bottom: 34px;
 }
 
 .portfolio-btn .item:not(:last-child) {
     margin-right: 8px;
 }
-.portfolio-btn .item {
+/* .portfolio-btn .item {
     margin-bottom: 34px;
-}
+} */
 .gallery-list {
     display: flex;
     flex-wrap: wrap;
 }
 
 .gallery-list .item {
-    width: calc((100% - 60)/3);
+    width: calc((100% - 60px)/3);
     margin-right: 30px;
     
     margin-bottom: 30px;
 
 }
 .card {
+padding: 20px 24px;
 border-bottom: 1px solid var(--portfolio-border);
 border-left: 1px solid var(--portfolio-border);
 border-right: 1px solid var(--portfolio-border);
